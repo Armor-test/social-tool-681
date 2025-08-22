@@ -1,0 +1,38 @@
+# CODEOWNERS file for social-tool-681
+# Global owners - will be requested for all PRs
+* @Armor-test/team-research @Armor-test/grp-integration @Armor-test/squad-payments
+
+# Directory ownership
+/public/ @Armor-test/squad-database @Armor-test/squad-payments
+/dist/ @Armor-test/dept-reporting @Armor-test/squad-payments @Armor-test/dept-data
+/data/ @Armor-test/grp-integration @Armor-test/squad-cloud @Armor-test/squad-tooling
+/config/ @Armor-test/squad-reporting @Armor-test/dept-reliability
+/models/ @Armor-test/squad-cloud @Armor-test/dept-logging
+/lib/ @Armor-test/team-governance @Armor-test/squad-research
+/extensions/ @Armor-test/dept-test @Armor-test/unit-design
+/views/ @Armor-test/squad-tooling @Armor-test/team-reporting
+/auth/ @Armor-test/squad-research @Armor-test/squad-product
+/pkg/ @Armor-test/dept-test @Armor-test/dept-reporting @Armor-test/dept-ui
+/docs/ @Armor-test/dept-reliability @Armor-test/squad-qa @Armor-test/grp-ui
+
+# File type ownership
+*.java @Armor-test/team-logging @Armor-test/unit-test @Armor-test/grp-storage
+*.cpp @Armor-test/squad-apps @Armor-test/grp-integration
+*.sh @Armor-test/dept-automation @Armor-test/squad-ux
+*.yml @Armor-test/team-frontend @Armor-test/dept-api @Armor-test/squad-reporting
+*.ts @Armor-test/dept-data @Armor-test/squad-frontend
+*.jsx @Armor-test/dept-security @Armor-test/squad-tooling
+*.graphql @Armor-test/squad-research @Armor-test/unit-test
+*.tf @Armor-test/squad-ml @Armor-test/team-notifications @Armor-test/dept-billing
+*.rs @Armor-test/grp-ui @Armor-test/unit-devops
+*.html @Armor-test/grp-api @Armor-test/squad-database
+*.tsx @Armor-test/squad-reporting @Armor-test/unit-cloud
+*.yaml @Armor-test/grp-payments @Armor-test/squad-tooling
+*.js @Armor-test/dept-data @Armor-test/team-logging
+*.rb @Armor-test/squad-frontend @Armor-test/team-governance
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
